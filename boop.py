@@ -9,7 +9,7 @@ _skip_one = [
      led_pins[(i+ 4)%len(led_pins)]
      ] for i in range(0, len(led_pins),1)
     ]
-
+#Some Display Functions
 _bounce = [
         led_pins[0]
     ]
