@@ -26,7 +26,7 @@ for led in led_pins:
     led_objects[led] = (Pin(led, Pin.OUT))
 
 
-# Reset the Current Execution State
+# Reset the Current Execution State to all off
 def reset_state():
     for led in led_objects.keys():
         led_objects[led].off()
