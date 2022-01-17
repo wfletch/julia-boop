@@ -45,7 +45,7 @@ def process_function(recipe, delay):
         time.sleep(delay)
     reset_state()
     
-time_delay = [0.2]
+time_delay = [0.1, 0.2, 0.3]
 
 # #TODO: Process a Button to switch state on command
 enabled_functions = [_full_bounce]
